@@ -1,0 +1,232 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+body{
+	margin-top: 0px;
+}
+
+h1{	
+	margin-left: 10%;
+	padding-top: 650px;
+	font-size: 50px;
+	text-align: left;
+	color: #FFF;
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+	font-family: 'Cinzel Decorative', cursive;
+	text-shadow: 0px 0px 15px #000;
+
+}
+
+h1:hover{
+	font-size: 55px;
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+
+}
+
+h5{	
+	padding-top: 700px;
+	font-size: 45px;
+	text-align: center;
+	color: #FFF;
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+	font-family: 'Cinzel Decorative', cursive;
+	text-shadow: 0px 0px 15px #000;
+
+}
+
+h5:hover{
+	font-size: 50px;
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+
+}
+
+h3{
+	font-size: 20px;
+	text-align: center;
+	color: #3aa573;`
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+  font-family: 'Cinzel Decorative', cursive;
+}
+
+h2{
+	font-size: 30px;
+	text-align: center;
+	color:#3aa573;
+	text-transform: capitalize;
+	font-family: 'Cinzel Decorative', cursive;
+	margin-left: 10%;
+	margin-right: 10%;
+
+
+}
+
+
+h4{
+	text-align:center;
+	font-size: 10px;
+}
+
+.icon-bar {
+	position: sticky;
+	position: -webkit-sticky;
+  top:0px;
+  width: 100%; 
+  /*background-color: #555; opacity: 0.98; filter:alpha(opacity=90);*/
+/*CREDTIS TO APPLE AND RUBENSYSTEMS*/
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+backdrop-filter: saturate(180%) blur(20px);
+background-color: rgba(50, 50, 50, 0.7);
+
+  overflow: auto; 
+}
+
+.icon-bar a {
+    float: left; 
+    text-align: center; 
+    width: 33.33333333%; 
+    padding: 12px 0; 
+    transition: all 0.3s ease; 
+    color: white; 
+    font-size: 36px; 
+}
+
+.icon-bar a:hover {
+    background-color: #e25353;
+}
+
+.active {
+    background-color: #3aa573; 
+}
+.button{
+	margin-left: 45%;
+	border: none;
+	border-radius: 10px;
+	font-size:20px;
+	text-align: center;
+	padding-left: 50px;
+	padding-right: 50px;
+	transition-duration: 0.5s;
+	-webkit-transition-duration: 0.5s;
+}
+
+.button:hover{
+	transition-duration: 0.5s;
+	-webkit-transition-duration: 0.5s;
+	border-radius: 3px;
+}
+
+ .parallax {
+   background-image: url("grandpa.jpg");
+   min-height: 1500px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+
+
+ 
+
+
+  .parallaxFive {
+   background-image:  url("grandpa-chair.jpg");
+   min-height: 1500px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+ .rubenSystems{
+ 	padding:50px;
+ }
+
+ 	.parallaxThree {
+   background-image: url("auntiechessgrandpa.jpg");
+   min-height: 1500px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+
+/*RUBENSYSTEMS*/
+
+/*If you want to add code for laptops, computes, big tablets */
+@media (min-width:1000px){
+
+
+   .parallaxTwo {
+   background-image: url("freeingtheinnocent.jpg");
+   min-height: 1500px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+p{
+	margin-left: 10%;
+	margin-right:10%;
+	text-align: justify;
+	font-size:20px;
+}
+ .parallaxFour {
+   background-image: url("femaleserialkiller.jpg");
+   min-height: 1500px;
+   margin-left:10%;
+   margin-right:10%;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: 500px;
+ }
+
+
+ }
+
+
+/*If you want to add code for phones, ipods  */
+
+ @media (max-width:1000px){
+ /*	.parallaxThree {
+   background-image: url("FreeingTheInnocentgrandpa.jpg");
+   min-height: 1500px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }*/
+  .parallaxFour {
+   background-image: url("femaleserialkiller.jpg");
+   min-height: 1500px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+ p{
+	margin-left: 5%;
+	margin-right:5%;
+	text-align: justify;
+	font-size:20px;
+}
+   .parallaxTwo {
+   background-image: url("freeingtheinnocentgrandpa.jpg");
+   min-height: 1500px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+ 	 }

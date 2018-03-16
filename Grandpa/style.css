@@ -1,0 +1,129 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+body{
+	margin-top: 0px;
+}
+
+h1{	
+	padding-top: 700px;
+	font-size: 50px;
+	text-align: center;
+	color: #FFF;
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+	font-family: 'Cinzel Decorative', cursive;
+	text-shadow: 0px 0px 15px #000;
+
+}
+
+h1:hover{
+	font-size: 60px;
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+
+}
+
+h3{
+	font-size: 30px;
+	text-align: center;
+	color: #3aa573;`
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+	font-family: 'Playfair Display SC', serif;
+}
+
+h2{
+	font-size: 30px;
+	text-align: center;
+	color:#3aa573;
+	text-transform: capitalize;
+	font-family: 'Cinzel Decorative', cursive;
+
+
+}
+
+p{
+	margin-left: 10%;
+	margin-right:10%;
+	text-align: justify;
+	font-size:20px;
+}
+h4{
+	text-align:center;
+	font-size: 10px;
+}
+
+.icon-bar {
+	position: sticky;
+	position: -webkit-sticky;
+    width: 100%; 
+    background-color: #555; 
+    overflow: auto; 
+}
+
+.icon-bar a {
+    float: left; 
+    text-align: center; 
+    width: 33.33333333%; 
+    padding: 12px 0; 
+    transition: all 0.3s ease; 
+    color: white; 
+    font-size: 36px; 
+}
+
+.icon-bar a:hover {
+    background-color: #e25353;
+}
+
+.active {
+    background-color: #3aa573; 
+}
+.button{
+	margin-left: 45%;
+	border: none;
+	border-radius: 10px;
+	font-size:20px;
+	text-align: center;
+	padding-left: 50px;
+	padding-right: 50px;
+	transition-duration: 0.5s;
+	-webkit-transition-duration: 0.5s;
+}
+
+.button:hover{
+	transition-duration: 0.5s;
+	-webkit-transition-duration: 0.5s;
+	border-radius: 3px;
+}
+
+ .parallax {
+   background-image: url("grandpa.jpg");
+   min-height: 1500px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+  .parallaxTwo {
+   background-image: url("FemaleSerialKiller.jpg");
+   min-height: 1500px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+ .parallaxThree {
+   background-image: url("FreeingTheInnocent.jpg");
+   min-height: 1500px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
